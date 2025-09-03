@@ -9,3 +9,12 @@ app.listen(port, () => {
 app.get('/',(req, res) => {
     res.send(`<h1> Server del mio Blog </h1>`);
 } )
+
+app.get('/bacheca',(req, res) => {
+    const post = {
+        title:
+        content:
+        img:
+        tags:
+    }
+})
